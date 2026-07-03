@@ -19,13 +19,13 @@ using an AI Agent.
 ## Screenshots
 
 **Workflow architecture:**
-![Workflow](screenshots/workflow.png)
+![Workflow](workflow.png)
 
 **Chatbot in action:**
-![Chat demo](screenshots/chat-demo.png)
+![Chat demo](chat-demo.png)
 
 ## Setup
-1. Import `rag-chatbot-workflow.json` into your n8n instance
+1. Import `My workflow.json` into your n8n instance
 2. Add credentials: Google Drive OAuth2, OpenAI API key, Pinecone API key
 3. Create a Pinecone index matching your embedding model's dimensions 
    (1536 for OpenAI text-embedding-ada-002)
