@@ -17,7 +17,12 @@ using an AI Agent.
 4. AI Agent retrieves relevant context and answers user questions in real time
 
 ## Screenshots
-[add images here]
+
+**Workflow architecture:**
+![Workflow](screenshots/workflow.png)
+
+**Chatbot in action:**
+![Chat demo](screenshots/chat-demo.png)
 
 ## Setup
 1. Import `rag-chatbot-workflow.json` into your n8n instance
@@ -25,4 +30,3 @@ using an AI Agent.
 3. Create a Pinecone index matching your embedding model's dimensions 
    (1536 for OpenAI text-embedding-ada-002)
 4. Activate the workflow
-
